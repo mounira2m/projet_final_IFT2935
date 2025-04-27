@@ -13,7 +13,7 @@ SELECT matricule_et, nom, prenom, programme
 SELECT e.matricule_et, e.nom, e.prenom
   FROM Etudiant e
   JOIN Enseignant ens ON e.matricule_ens = ens.matricule_ens
- WHERE ens.nom = 'Nguyen';
+ WHERE ens.nom = 'Diakite';
 
 -- ## REQ4
 SELECT ens.matricule_ens, ens.nom, ens.prenom --COUNT(p.id_stage) AS nb_stages
