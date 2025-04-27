@@ -39,7 +39,7 @@ INSERT INTO enseignant (matricule_ens, nom, prenom, email_ens, faculte) VALUES
 (7006, 'Chen', 'Li', 'li.chen@umontreal.ca', 'Informatique'),
 (7007, 'Ouellet', 'Nadia', 'nadia.ouellet@umontreal.ca', 'Mathématiques'),
 (7008, 'Rahman', 'Ali', 'ali.rahman@umontreal.ca', 'Informatique'),
-(7009, 'Diakité', 'Abdoulaye', 'abdoulaye.diakite@umontreal.ca', 'Mathématiques'),
+(7009, 'Diakite', 'Abdoulaye', 'abdoulaye.Diakite@umontreal.ca', 'Mathématiques'),
 (7010, 'Smith', 'John', 'john.smith@umontreal.ca', 'Informatique'),
 (7011, 'Morales', 'Lucia', 'lucia.morales@umontreal.ca', 'Génie logiciel'),
 (7012, 'Leclerc', 'Vincent', 'vincent.leclerc@umontreal.ca', 'Sciences de la santé');
@@ -102,7 +102,7 @@ INSERT INTO etudiant  (matricule_et, nom, prenom, date_naissance , email_Et, pro
 (2048406, 'Côté', 'Nadia', '2000-11-07', 'nadia.côte@umontreal.ca', 'Baccalauréat en Informatique', 31, 2022, 'Hiver', 1002, 7006),
 (2048407, 'Morin', 'Émilie', '1998-07-08', 'emilie.morin@umontreal.ca', 'Baccalauréat en Mathématiques', 57, 2023, 'Hiver', 1000, 7007),
 (2048408, 'Ben', 'Rahman', '2000-01-09', 'rahman.ben@umontreal.ca', 'Majeure en Informatique', 53, 2025, 'Été', 1005, 7008),
-(2048409, 'Diakité', 'Karine', '2005-04-10', 'karine.diakité@umontreal.ca', 'Mineure en Mathématiques', 31, 2025, 'Hiver', 1011, 7009),
+(2048409, 'Diakite', 'Karine', '2005-04-10', 'karine.Diakite@umontreal.ca', 'Mineure en Mathématiques', 31, 2025, 'Hiver', 1011, 7009),
 (2048410, 'Pelletier', 'Hugo', '2000-09-11', 'hugo.pelletier@umontreal.ca', 'Majeure en Mathématiques et Informatique', 31, 2025, 'Automne', 1007, 7009),
 (2048411, 'Chénier', 'Amélie', '2001-12-01', 'amelie.chenier@umontreal.ca', 'Génie logiciel', 72, 2025, 'Hiver', 1008, 7011),
 (2048412, 'Leclerc', 'Julien', '2004-03-15', 'julien.leclerc@umontreal.ca', 'Sciences de la santé', 84, 2021, 'Été', 1009, 7012),
