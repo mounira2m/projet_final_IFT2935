@@ -38,7 +38,7 @@ def init_db():
 questions = [
     "1) Lister les stages qui sont encore ouverts.",
     "2) Trouver les étudiants en stage dans un programme en lien avec l'informatique",
-    "3) Obtenir les étudiants encadrés par l'enseignant de nom Nguyen",
+    "3) Obtenir les étudiants encadrés par l'enseignant de nom Diakite",
     "4) Obtenir les enseignants qui encadrent au moins deux étudiants inscrits dans des stages différents"
 ]
 
@@ -123,7 +123,7 @@ def q3(session):
     ).join(
         Enseignant, Etudiant.matricule_ens == Enseignant.matricule_ens
     ).filter(
-        Enseignant.nom == 'Nguyen'
+        Enseignant.nom == 'Diakite'
     )
 
 def q4(session):
